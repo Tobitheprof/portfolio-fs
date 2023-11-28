@@ -1,0 +1,627 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- FONT FILES -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS FILES(VENDOR) -->
+    <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'assets/vendor/boxicons-2.1.4/css/boxicons.min.css' %}">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />  
+    <!-- CSS FILES(CUSTOM) -->
+    <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
+    
+    
+
+    <title>Homepage | Oluwatobi Ekundayo</title>
+</head>
+<body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+    <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center navbar-light shadown-lg">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="{% static 'assets/img/logo.png' %}" alt=""> -->
+        <h1><span>Tobi.</span></h1>
+      </a>
+
+      <!-- Nav Menu -->
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav><!-- End Nav Menu -->
+
+      <a class="button-56 fw-bold btn-getstarted" role="button">Download CV</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+
+    <!-- Hero Section - Home Page -->
+    <section id="hero" class="hero">
+
+      <img src="{% static 'assets/img/abstract-textured-backgound.jpg' %}" alt="" data-aos="fade-in">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="lead fw-bold">Hi, I'm <span>&lt;&#47;</span>Oluwatobi Ekundayo<span>&#47;&gt;</span></p>
+            <h2 class="">I am a <span>FullStack</span> Developer</h2>
+            <div class="">
+            <p class="">I am a highly experienced software developer with a passion for building scalable and efficient web applications with over 5 years of hands-on experience</p>
+            <button class="btn-getstarted mt-2 fw-bold ">About Me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </section><!-- End Hero Section -->
+
+
+    <!-- ABOUT SECTION START -->
+    <section id="about" class="about sections-bg">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+            <img src="https://media.tenor.com/mV5ycTPTpxkAAAAC/sinchan-hello.gif" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-8 order-md-1" data-aos="fade-left" data-aos-delay="300">
+            <h6 class="fw-bold">About Me</h6>
+            <h1 class="fw-bold">Oluwatobi <span>Ekundayo</span></h1>
+            <p>Hello! ^_^, I'm Oluwatobi Ekundayo.</p>
+            <p>Professionally, my expertise spans across full-stack web development, web scraping, automation, data science, and AI & ML engineering.</p>
+            <p>Alongside my professional life, academically, I navigate Ahmadu Bello University as a second year student who majors in computer engineering.</p>
+            <p>Beyond this, I find myself often lost in the world of anime, manga, comics(DC Fanboy ^_^), cartoons and football where you can find me supporting the pride of London and the best football club in europe, Chelsea.</p>
+            <p>I also fancy literary works of authors like Khalil Gibran, Charles Dickens and occasionally, Shakespear.</p>
+            <p>To find more about me, you can simply take a look at my skills</p>
+            <a class="btn-getstarted mt-2 fw-bold" href="#skills" style="width: fit-content;">My Skills</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION END -->
+
+    <!-- My Skills Section Start -->
+
+    <section id="skills" class="services sections-bg2">
+
+      <div class="container">
+        <p class="fw-bold" style="color: #cccbcb;" data-aos="fade-right" data-aos-delay="200">What can I do?</p>
+        <h2 class="fw-bold mb-3" data-aos="fade-right" data-aos-delay="300">My <span>Skills</span></h2>
+        <p style="color: #fff;" data-aos="fade-right" data-aos-delay="400">Besides being Batman and an awesome superhero, I posses a wide range of skills that set me apart from other developers. You could say I'm an entire IT department in one person</p>
+
+
+        <div class="row">
+
+          <div class="col-lg-4 mb-3" data-aos="fade-right" data-aos-delay="500">
+            <div class="box">
+              <span><i class="bx bxl-html5"></i></span>
+              <h4 class="fw-bold">HTML</h4>
+              <p>Proficient in language intricacies and well-versed in the principles underpinning semantic HTML, ARIA, and Responsive Elements.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0 mb-3" data-aos="fade-right" data-aos-delay="500">
+            <div class="box">
+              <span><i class="bx bxl-css3"></i></span>
+              <h4 class="fw-bold">CSS</h4>
+              <p>As a seasoned web developer, I leverage CSS as a fundamental stylesheet language to craft contemporary websites, ensuring a visually appealing user interface and an enhanced user experience.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0 mb-3" data-aos="fade-right" data-aos-delay="500">
+            <div class="box">
+              <span><i class="bx bxl-python"></i></span>
+              <h4 class="fw-bold">Python</h4>
+              <p>
+                For the majority of my product development, I rely on Python, showcasing an advanced proficiency in the language. My expertise encompasses a strong grasp of Object-Oriented Programming, coupled with a comprehensive understanding of Data Structures and Algorithms, pivotal in delivering high-quality solutions.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-3" data-aos="fade-right" data-aos-delay="500">
+            <div class="box">
+              <span><i class="bx bxl-javascript"></i></span>
+              <h4 class="fw-bold">Javascript</h4>
+              <p>
+                I demonstrate an intermediate level of proficiency in JavaScript, showcasing a solid comprehension of Object-Oriented Programming principles and Data Structures & Algorithms within this language. Additionally, I possess familiarity with a wide array of its frameworks, contributing to a well-rounded skill set in JavaScript development.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0 mb-3" data-aos="fade-right" data-aos-delay="500">
+            <div class="box">
+              <span><i class="bx bxl-react"></i></span>
+              <h4 class="fw-bold">ReactJS</h4>
+              <p>
+                I have achieved proficiency in ReactJS, empowering me to craft interactive and engaging client-facing software tailored specifically for web environments.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0 mb-3" data-aos="fade-right" data-aos-delay="500">
+            <div class="box">
+              <span><i class="bx bxl-tailwind-css"></i></span>
+              <h4 class="fw-bold">Tailwind CSS</h4>
+              <p>Tailwind CSS stands as my framework of choice for crafting visually stunning web interfaces. With considerable expertise in this framework, I've successfully executed numerous projects, leveraging its capabilities to create aesthetically pleasing and functional designs.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-3" data-aos="fade-right" data-aos-delay="500">
+            <div class="box">
+              <span><i class="bx bxl-django mt-3"></i></span>
+              <h4 class="fw-bold">Django</h4>
+              <p>
+                I have garnered extensive experience in developing high-performance, scalable, and maintainable web applications using the Django framework in Python.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0 mb-3" data-aos="fade-right" data-aos-delay="500">
+            <div class="box">
+              <span><i class="bx bxs-data"></i></span>
+              <h4 class="fw-bold">Databases and SQL</h4>
+              <p>
+                Proficiently acquainted with several SQL and NoSQL database systems including PostgreSQL, MySQL, MongoDB, Redis, CockroachDB, and OracleDB.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0 mb-3" data-aos="fade-right" data-aos-delay="500">
+            <div class="box">
+              <span><i class="bx bxl-google-cloud"></i></span>
+              <h4 class="fw-bold">Cloud Technologies</h4>
+              <p>
+                I possess broad and substantial experience in utilizing cloud technologies, particularly Google Cloud, AWS, and Azure. Among these, Google Cloud stands as my preferred choice due to my extensive familiarity and expertise in working with its functionalities.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0 mb-3" data-aos="fade-right" data-aos-delay="500">
+            <div class="box">
+              <span><i class="bx bxl-git"></i></span>
+              <h4 class="fw-bold">Version Control</h4>
+              <p>
+                I employ the widely adopted version control system, Git, along with its hosting service, GitHub, to effectively manage timed product releases and oversee the content being delivered to users.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0 mb-3" data-aos="fade-right" data-aos-delay="500">
+            <div class="box">
+              <span><i class="bx bx-globe"></i></span>
+              <h4 class="fw-bold">S.E.O</h4>
+              <p>I boast a comprehensive three-year tenure in Search Engine Optimization (SEO), coupled with extensive knowledge in the domain of keyword research and strategies aimed at driving substantial traffic.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0 mb-3" data-aos="fade-right" data-aos-delay="500">
+            <div class="box">
+              <span><i class="bx bxl-typescript"></i></span>
+              <h4 class="fw-bold">Typescript</h4>
+              <p>
+                I possess intermediate-level experience working with TypeScript, along with familiarity in several of its frameworks such as Vendure and LoopBack-Next.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Whu Us Section -->
+
+    <!-- My Skills Section End -->
+
+    <!-- My Resume Start -->
+
+    <section id="resume" class="resume sections-bg">
+      <div class="container" data-aos="fade-up">
+        <p class="fw-bold" style="color: #cccbcb;" data-aos="ease-in" data-aos-delay="200">My Career Journey</p>
+        <h2 class="fw-bold mb-3" data-aos="fade-left" data-aos-delay="300">My <span>Resume</span></h2>
+        <p style="color: #fff;" data-aos="fade-down" data-aos-delay="400">Over the course of time, I have worked in a number of organizations that specialize in different fields, working with different tech stacks become my normal routine and helped me to accmulate a good number of professional experiences as a software engineer</p>
+
+        <div class="row justify-content-between">
+          <div class="col-lg-6" data-aos="ease-up" data-aos-delay="600">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Oluwatobi Ekundayo</h4>
+              <p>With over 5 years of experience working as a possionate and work driven software engineer, I have worked in many fields, built lots of real world projects and mastered a couple of in-demand skills. Highly skilled in full stack development, automation, web scraping and data science.</p>
+              <ul>
+                <li>Kaduna State, Nigeria</li>
+                <li>(234) 91-5937-2550</li>
+                <li>oluwatobiekundayo691@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Computer Engineering (4.89 GPA)</h4>
+              <h5>2022 - 2027</h5>
+              <p><em>Ahmadu Bello University, Zaria, Kaduna, Nigeria</em></p>
+              <p>At the moment, I am a student of Ahmadu Bello University where I major in Computer Engineering, I'm currently in my second year of study. My degree is a five year programme that covers physical sciences, engineering & technology and business/engineering laws</p>
+            </div>
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Web Developer and Programming Instructor</h4>
+              <h5>2018 - Present</h5>
+              <p><em>Blazetech Enterprises, Kaduna, Nigeria</em></p>
+              <ul>
+                <li>Planned, developed, tested, deployed, and maintained web applications</li>
+                <li>Worked to solve complex problems using the latest in Cloud, Mobile, and Web
+                  Technologies.</li>
+                <li>Provided effective troubleshooting and remediation for web applications.</li>
+                <li> Teaching and mentoring students in various programming languages, web development 
+                  frameworks, and technologies.</li>
+                <li>Evaluating student performance through assignments, 
+                exams, and projects, and providing constructive feedback to aid in their learning and 
+                improvement.</li>
+                <li>Creating and maintaining a positive and inclusive learning environment that
+                encourages active participation and collaboration among students. </li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Fullstack Web Developer and Technical Lead</h4>
+              <h5>2022 - 2023</h5>
+              <p><em>CareerEdu, London, United Kingdom</em></p>
+              <ul>
+                <li>Worked as a productive and positive team member to design, code, test, report, and 
+                  debug operations.</li>
+                <li>Lead team initiatives to improve application designs and functioning</li>
+                <li>Provided effective troubleshooting and remediation for web applications.</li>
+                <li> Developed, Tested and Deployed different parts of web applications.</li>
+                <li>Evaluating student performance through assignments, 
+                exams, and projects, and providing constructive feedback to aid in their learning and 
+                improvement.</li>
+                <li>Creating and maintaining a positive and inclusive learning environment that
+                encourages active participation and collaboration among students. </li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Lead Developer and Content Writer</h4>
+              <h5>2022 - 2023</h5>
+              <p><em>Save Nigeria GroupUSA, New York, United States of America</em></p>
+              <ul>
+                <li>As the lead developer and content writer, I spearheaded the conception and implementation of innovative new products while meticulously maintaining existing offerings</li>
+                <li>Leading the creation of comprehensive technical documentation, including user guides, API documentation, and release notes, to facilitate seamless user adoption and support.</li>
+                <li>Conducting regular security audits and implementing robust security protocols and measures to safeguard products against potential vulnerabilities and cyber threats.</li>
+                <li>Mentoring and guiding junior developers and content creators, fostering a collaborative and growth-oriented team environment while ensuring adherence to best practices and quality standards.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="ease-up" data-aos-delay="600">
+            <div class="resume-item">
+              <h4>Fullstack Web Developer</h4>
+              <h5>2022 - 2023</h5>
+              <p><em>EduBank, London, United Kingdom</em></p>
+              <ul>
+                <li>Created and implemented the core functionalities of the web application, ensuring seamless user experience and efficient handling of student loan processes, including application submission, approval workflows, and repayment management.</li>
+                <li>Designed and constructed the user interface (UI) of the web app, focusing on intuitive navigation, visually appealing layouts, and responsive design to enhance user engagement and accessibility for students applying for loans and meal programs.</li>
+                <li>Collaborated closely with cross-functional teams, including designers and backend developers, to integrate front-end components with backend systems, ensuring data consistency, reliability, and security.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Automation Expert, Web Scraper and Web Developer</h4>
+              <h5>2023 - Present</h5>
+              <p><em>Infignity, London, United Kingdom</em></p>
+              <ul>
+                <li>Developed and implemented automated solutions to streamline repetitive tasks and optimize workflows within the organization.</li>
+                <li>Identified opportunities for process automation across departments, leveraging tools and technologies to increase operational efficiency and reduce manual intervention with the use of frameworks and libraries such as Selenium, Playwright, Scrapy, Requests, Beautiful Soup and Puppeteer</li>
+                <li>Designed, configured, and maintained automation scripts, bots, or software to perform tasks such as data extraction, report generation, and system integrations.</li>
+                <li>Created robust web scraping algorithms and scripts to gather and extract data from various online sources, utilizing scraping tools, APIs, or custom code.</li>
+                <li>Maintained and optimized existing web scraping processes, adapting methodologies to accommodate changes in target websites and data structures.</li>
+                <li>Developed and maintained web applications and platforms for Infignity, focusing on front-end and back-end development using modern programming languages and frameworks.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Technical Writing Lead (Volunteer)</h4>
+              <h5>2023 - Present</h5>
+              <p><em>Google Developer Student Clubs, Ahmadu Bello University, Zaria, Kaduna, Nigeria</em></p>
+              <ul>
+                <li>Made and executed a content strategy to diversify topics and ensure a well-rounded collection of technical articles, catering to the interests and needs of the audience.</li>
+                <li>Explored new platforms or channels for content distribution, evaluating their suitability and overseeing the club's presence to expand the reach and impact of technical content.</li>
+                <li>Facilitated training sessions to familiarize new writers with best practices in technical writing, including structuring articles, effective communication, and utilizing relevant tools or platforms.</li>
+                <li>Provided mentorship and guidance to new writers, offering ongoing support and feedback to help them adapt to the club's writing culture and enhance their skills.</li>
+                <li>Published technical articles authored by the GDSC chapter members on platforms such as Hashnode, Dev.to, Medium, and Notion.</li>
+                <li>Engaged with the GDSC community, organizing workshops or webinars on technical writing, inviting guest speakers, and facilitating discussions to inspire and educate members on effective writing practices.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Fullstack Developer, Data Scientist, ML Engineer and Technical Lead</h4>
+              <h5>2023 - Present</h5>
+              <p><em>ChatVE, Lagos, Nigeria</em></p>
+              <ul>
+                <li>Collected, cleaned and filtered data that was used in the trainning of a set of machine learning models built for fact-checking.</li>
+                <li>Employed the use of Convonutional Neural Networks to in Natural Language Processing to perform language modelling using libraries like Tensorflow and Spacy.</li>
+                <li>Lead the technical team and oversaw the development of applications and ensured compliance with industry standards.</li>
+                <li>Built web intrerfaces that leveraged the power of already developed machine learning models made by the ChatVE ML team.</li>
+                <li>Used concepts in Data Structures and Algorithms like time complexity to breathe life into machine learning models</li>
+                <li>Employed the use of a deep understanding of statistics to build well-developed and industry SVMs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MY Resume End -->
+
+    <!-- My Projects Start -->
+    <section id="projects" class="projects">
+
+      <img src="{% static 'assets/img/abstract-textured-backgound.jpg' %}" alt="" data-aos="fade-in">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- <p class="lead fw-bold" data-aos="fade-up" data-aos-delay="100">Hi, I'm <span>&lt;&#47;</span>Oluwatobi Ekundayo<span>&#47;&gt;</span></p> -->
+            <h2 data-aos="fade-up" data-aos-delay="200">Check out my <span>projects</span></h2>
+            <p data-aos="fade-up" data-aos-delay="300">Working as a developer for 5+ years means I've worked on various projects that span across many tech stacks. To share my projects, I have a section dedicated solely to them. Acces them by clicking the button below.</p>
+            <a class="btn-getstarted mt-2 fw-bold" data-aos="fade-up" data-aos-delay="400" href="github.com/Tobitheprof" style="width: fit-content;">My Projects</a>
+          </div>
+        </div>
+      </div>
+  
+    </section>
+    <!-- My Projects End -->
+
+
+    <!-- My Services Start -->
+
+    <section id="services" class="services sections-bg">
+
+      <div class="container">
+        <p class="fw-bold" style="color: #cccbcb;" data-aos="ease-in" data-aos-delay="200">What do I offer?</p>
+        <h2 class="fw-bold mb-3" data-aos="fade-left" data-aos-delay="300">My <span>Services</span></h2>
+        <p style="color: #fff;" data-aos="fade-down" data-aos-delay="400">In order to keep up with the times and stay afloat in today's economy, I offer alot of services that are centered around the IT space. You can check them out below and contact me for a quote</p>
+
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-globe"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Web Development</a></h4>
+                <p class="description">
+                  Providing a comprehensive range of services encompassing both frontend and backend development, I specialize in crafting websites and web applications using cutting-edge techniques and industry best practices.</p>
+                <p class="description">So far as it's a web based, then I can build it.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-robot"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Chat Bot Development</a></h4>
+                <p class="description">Utilizing advanced deep learning frameworks, I specialize in constructing versatile chatbots capable of fulfilling various roles, ranging from digital assistants to customized tasks such as automating email correspondence, appointment scheduling, and beyond.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-cart"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">E-Commerce Development</a></h4>
+                <p class="description">
+                  In line with the evolving landscape of business, I specialize in crafting eCommerce applications designed to expand your business reach, attracting new audiences while ensuring the retention of existing customers. These applications are tailored to help your business stay relevant and thrive in a dynamic market environment.</p>
+                <p>My ecommerce services comes with management tools and free maintanance within the first month of the acquiring my services</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-clipboard"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">E-management Systems Development</a></h4>
+                <p class="description">
+                  In the present digital age, the paradigm has shifted from traditional snail mail to a pervasive online environment. This transformation extends to various management systems, prompting a need for innovative solutions. Leveraging my technical expertise, I specialize in crafting tailored management systems for diverse sectors such as learning, inventory, hotel, finance, school, laboratory, and hospital management. These systems are designed to streamline operations and adapt to the modern digital landscape.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-send"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Web Scraping</a></h4>
+                <p class="description">In today's context, data holds immense value akin to the significance of oil. Leveraging my expertise in web scraping, I facilitate the extraction of this invaluable "new oil." Whether it's scraping from basic websites, delving into comprehensive social media scraping, or even gathering a substantial portion of data across the English internet, I specialize in obtaining and harnessing data to meet diverse needs and objectives.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-gear"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Automation</a></h4>
+                <p class="description">Numerous tasks often prove time-consuming and inefficient. However, these challenges can be effectively addressed through automation.</p>
+                <p class="description">My automation proficiency spans a wide spectrum, allowing for the automation of diverse tasks. From crafting emails, scraping profiles, scheduling timed messages, and beyond—there are no limitations to what I can automate.</p>              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="700">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Troubleshooting and Maintenance</a></h4>
+                <p class="description">Software glitches and faults can arise unexpectedly, disrupting operations. Easily address these issues by scheduling a session with me to diagnose and resolve these challenges efficiently.</p>
+                <p class="description">Furthermore, I specialize in fortifying application security, proactively preventing breaches before they occur, thereby ensuring the robustness of your systems.</p>              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="800">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-person"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Someone you can talk to</a></h4>
+                <p class="description">Occasional boredom is part of life, and sometimes, having someone to chat with can make all the difference.</p>
+                <p class="description">Feel free to reach out to me, and I'll be there to lend an ear and engage in some great conversations. As someone who loves meeting new people, let's connect and become friends. I'm here to make your day brighter!</p>              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="900">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-person"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">AI Development</a></h4>
+                <p class="description">Yes, you've got it right! I'm well-versed in numerous frameworks that enable me to craft impressive AI applications tailored for various purposes.</p>
+                <p class="description">And no, it's not just an API call to GPT 😂. I specialize in developing custom AI applications from scratch, ensuring unique solutions that cater specifically to your needs!</p>              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="1000">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-person"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">LLM Development</a></h4>
+                <p class="description">I possess substantial expertise in constructing LLMs (Language Model Models) designed for various applications. Equipped with proficiency in CNNs, SVMs, NLP, and Transformers, I'm the go-to professional to tackle LLM development tasks effectively.</p>              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- My Services End -->
+
+
+    <!-- Contact Me Start -->
+
+    <section id="contact" class="contact sections-bg2">
+      <div class="container">
+  
+        <p class="fw-bold" style="color: #cccbcb;">Want to reach out?</p>
+        <h2 class="fw-bold mb-3">Contact <span>Me</span></h2>
+        <p style="color: #fff;">Whether you're interested in collaborating on a project or just want to chat about football, anime, or comics, simply fill out the form, and I'll be sure to get in touch with you!</p>
+  
+        <div class="row mt-2">
+  
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-map"></i>
+              <h3>My Address</h3>
+              <p>Kaduna State, Nigeria</p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-share-alt"></i>
+              <h3>Social Profiles</h3>
+              <div class="social-links">
+                <a href="https://twitter.com/Tobitheprof" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100076235013953" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://github.com/Tobitheprof" class="google-plus"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/oluwatobi-ekundayo-283b60229/?lipi=urn%3Ali%3Apage%3Aprofile_common_profile_index%3Bb8eadd4b-a9cc-4ef5-b22c-00019e8c163e" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-6 mt-4 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Me</h3>
+              <p><a href="mailto:oluwatobiekundayo07@gmail.com" style="color: #fff;">oluwatobiekundayo691@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Me</h3>
+              <p><a href="tel:+2349159372550" style="color: #fff;">+2349159372550</a></p>
+            </div>
+          </div>
+        </div>
+  
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit" class="button-56 fw-bold btn-getstarted">Send Message</button></div>
+        </form>
+  
+      </div>
+    </section>
+
+    <!-- Contact Me End -->
+
+
+
+
+  </main>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+    
+  <!-- Scroll Top Button -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+  
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'assets/vendor/boxicons-2.1.4/css/' %}"></script>
+  <script>
+    AOS.init({
+      duration: 800, // Change duration if needed
+      once: true, // Animate only once
+      easing: 'ease-in-out' //Ease type
+      
+    });
+  </script>
+  
+  <!-- Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+</body>
+</html>
