@@ -70,6 +70,13 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row">
           <div class="col-lg-12">
+            {% if messages %}
+              {% for message in messages %}
+              <div class="alert alert-primary" role="alert">
+                {{message}}
+              </div>
+              {% endfor %}
+            {% endif %}
             <p class="lead fw-bold">Hi, I'm <span>&lt;&#47;</span>Oluwatobi Ekundayo<span>&#47;&gt;</span></p>
             <h2 class="">I am a <span>FullStack</span> Developer</h2>
             <div class="">
